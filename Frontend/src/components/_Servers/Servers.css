@@ -1,0 +1,33 @@
+.servers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputServer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 60%;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    border-radius: 20px;
+
+    margin-top: 20px;
+}
+
+.delete_icon:hover {
+    cursor: pointer;
+}
